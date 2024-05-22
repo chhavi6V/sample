@@ -7,7 +7,7 @@ import ReactGA from "react-ga4";
 
 function App() {
   useEffect(()=>{
-    ReactGA.initialize("G-KF9V9PEKQF");
+    ReactGA.initialize("G-7VF9PVX1X4");
     ReactGA.send({ hitType: "pageview", page: window.location.pathname + window.location.search, title: "Custom Title" });
   })
   return (
